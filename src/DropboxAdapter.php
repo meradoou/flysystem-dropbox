@@ -285,7 +285,7 @@ class DropboxAdapter extends AbstractAdapter
         return $this->normalizeResponse($object);
     }
 
-    protected function normalizeResponse(array $response): array
+    protected function normalizeResponse(array $response)
     {
         $normalizedPath = ltrim($this->removePathPrefix($response['path_display']), '/');
 

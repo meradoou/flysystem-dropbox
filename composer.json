@@ -1,5 +1,5 @@
 {
-    "name": "spatie/flysystem-dropbox",
+    "name": "meradoou/flysystem-dropbox",
     "description": "Flysystem Adapter for the Dropbox v2 API",
     "keywords": [
         "spatie",
@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.4",
         "league/flysystem": "^1.0",
-        "spatie/dropbox-api": "^1.1.0"
+        "meradoou/dropbox-api": "^1.1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
